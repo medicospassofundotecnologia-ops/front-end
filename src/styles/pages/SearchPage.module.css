@@ -1,0 +1,92 @@
+/* src/styles/pages/SearchPage.module.css */
+.searchPageContainer {
+  padding-top: 20px;
+}
+
+.searchTitle {
+  font-size: 2.2rem;
+  color: var(--color-primary-dark, #0056b3);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.searchSubtitle {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary, #6c757d);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.noResults,
+.loadingMore,
+.endOfList {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 1.15rem;
+  color: var(--color-text-secondary, #616161);
+  max-width: 800px;
+  padding: 0 15px;
+}
+
+.noResults {
+  color: var(--color-danger, #e53935);
+  font-weight: bold;
+}
+
+.loadingMore {
+  font-style: italic;
+  color: var(--color-info, #2196f3);
+}
+
+.endOfList {
+  color: var(--color-success, #4caf50);
+}
+
+.doctorsGrid {
+  display: grid;
+  grid-template-columns: 1fr; /* ALTERADO: Agora uma única coluna para empilhar os cards */
+  gap: 25px; /* Mantém o espaçamento vertical entre os cards */
+  /* justify-content: center; -- Removido ou irrelevante com 1fr */
+  padding: 20px 0;
+}
+
+/* Responsividade para a grid de cards */
+@media (max-width: 768px) {
+  .searchTitle {
+    font-size: 1.8rem;
+  }
+  .searchSubtitle {
+    font-size: 1rem;
+  }
+  .doctorsGrid {
+    grid-template-columns: 1fr; /* Garante que permaneça em uma coluna */
+    gap: 20px;
+  }
+  .noResults,
+  .loadingMore,
+  .endOfList {
+    font-size: 1.05rem;
+    margin: 20px auto;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .searchTitle {
+    font-size: 1.5rem;
+  }
+  .searchSubtitle {
+    font-size: 0.95rem;
+  }
+  .doctorsGrid {
+    grid-template-columns: 1fr; /* Garante que permaneça em uma coluna */
+    gap: 15px;
+  }
+  .noResults,
+  .loadingMore,
+  .endOfList {
+    font-size: 0.95rem;
+    margin: 15px auto;
+    padding: 0 5px;
+  }
+}

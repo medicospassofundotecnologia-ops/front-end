@@ -1,0 +1,1062 @@
+[
+  {
+    "id": "doc-001",
+    "fullName": "Dr. João Silva 1",
+    "slugUrl": "dr-joao-silva-cardiologista-passo-fundo-25",
+    "mainProfessionalTitle": "Cardiologista",
+    "secondarySpecialties": ["Clínica Médica", "Ecocardiografia"],
+    "crm": "CRM/RS 12345",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Médico cardiologista com mais de 15 anos de experiência, focado em tratamento de arritmias e prevenção cardiovascular em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 98765-4321",
+      "whatsapp": "5554987654321",
+      "email": "contato@drjoao.com.br",
+      "instagram": "https://www.instagram.com/drjoaosilva",
+      "linkedin": "https://www.linkedin.com/in/drjoaosilva"
+    },
+    "address": {
+      "street": "Rua Independência, 123",
+      "neighborhood": "Centro",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99010-123",
+      "latitude": "-28.2606",
+      "longitude": "-52.4045",
+      "complement": "Sala 101",
+      "observations": "Próximo à Praça da Matriz"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFRGS (2000)",
+      "Residência em Cardiologia - Hospital de Clínicas de Porto Alegre (2002)"
+    ],
+    "seoKeywords": ["cardiologista passo fundo", "médico coração passo fundo", "arritmia passo fundo", "clínica médica passo fundo", "hipertensão passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-002",
+    "fullName": "Dra. Maria Oliveira 2",
+    "slugUrl": "dra-maria-oliveira-pediatra-passo-fundo-26",
+    "mainProfessionalTitle": "Pediatra",
+    "secondarySpecialties": ["Neonatologia", "Pneumologia Pediátrica"],
+    "crm": "CRM/RS 54321",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Pediatra com foco em desenvolvimento infantil e saúde respiratória de crianças, com atendimento acolhedor em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99876-5432",
+      "whatsapp": "5554998765432",
+      "email": "contato@dramaria.com.br",
+      "instagram": "https://www.instagram.com/dramariaoliveira"
+    },
+    "address": {
+      "street": "Avenida Brasil, 456",
+      "neighborhood": "Centro",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99020-456",
+      "latitude": "-28.2610",
+      "longitude": "-52.4050",
+      "complement": "Sala 202",
+      "observations": "Em frente ao Shopping Central"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFPel (2005)",
+      "Residência em Pediatria - Hospital da Criança Santo Antônio (2007)"
+    ],
+    "seoKeywords": ["pediatra passo fundo", "médico infantil passo fundo", "saúde da criança passo fundo", "pneumologia pediátrica passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-003",
+    "fullName": "Dr. Pedro Santos 3",
+    "slugUrl": "dr-pedro-santos-dermatologista-passo-fundo-27",
+    "mainProfessionalTitle": "Dermatologista",
+    "secondarySpecialties": ["Dermatoscopia", "Tricologia"],
+    "crm": "CRM/RS 67890",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Especialista em doenças de pele, cabelo e unhas, oferecendo tratamentos avançados para acne, melasma e queda de cabelo em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99345-6789",
+      "whatsapp": "5554993456789",
+      "email": "contato@drpedro.com.br"
+    },
+    "address": {
+      "street": "Rua dos Andradas, 789",
+      "neighborhood": "Boqueirão",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99030-789",
+      "latitude": "-28.2700",
+      "longitude": "-52.4100",
+      "complement": "Clínica Vida",
+      "observations": "Próximo à Farmácia Essencial"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - PUCRS (2008)",
+      "Residência em Dermatologia - Santa Casa de Porto Alegre (2010)"
+    ],
+    "seoKeywords": ["dermatologista passo fundo", "acne passo fundo", "melasma passo fundo", "queda de cabelo passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-004",
+    "fullName": "Dra. Ana Costa 4",
+    "slugUrl": "dra-ana-costa-ginecologista-passo-fundo-28",
+    "mainProfessionalTitle": "Ginecologista e Obstetra",
+    "secondarySpecialties": ["Reprodução Humana", "Climatério"],
+    "crm": "CRM/RS 09876",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Ginecologista dedicada à saúde feminina em todas as fases, do planejamento familiar à menopausa, com abordagem humanizada em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99678-9012",
+      "whatsapp": "5554996789012",
+      "email": "contato@draana.com.br",
+      "linkedin": "https://www.linkedin.com/in/draanacosta"
+    },
+    "address": {
+      "street": "Travessa Vênus, 10",
+      "neighborhood": "Vila Lucas",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99040-010",
+      "latitude": "-28.2800",
+      "longitude": "-52.4200",
+      "observations": "Edifício Saúde Feminina"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFRGS (2003)",
+      "Residência em Ginecologia e Obstetrícia - Hospital de Clínicas de Porto Alegre (2006)"
+    ],
+    "seoKeywords": ["ginecologista passo fundo", "obstetra passo fundo", "saúde da mulher passo fundo", "menopausa passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-005",
+    "fullName": "Dr. Carlos Eduardo 5",
+    "slugUrl": "dr-carlos-eduardo-oftalmologista-passo-fundo-29",
+    "mainProfessionalTitle": "Oftalmologista",
+    "secondarySpecialties": ["Cirurgia de Catarata", "Glaucoma"],
+    "crm": "CRM/RS 11223",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Oftalmologista com vasta experiência em diagnóstico e tratamento de doenças oculares, incluindo cirurgias, em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99012-3456",
+      "whatsapp": "5554990123456",
+      "email": "contato@drcarloseduardo.com.br"
+    },
+    "address": {
+      "street": "Rua da Visão, 50",
+      "neighborhood": "Centro",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99010-050",
+      "latitude": "-28.2620",
+      "longitude": "-52.4060",
+      "complement": "Edifício Olhos Verdes"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFSC (2001)",
+      "Residência em Oftalmologia - Hospital de Olhos de SP (2004)"
+    ],
+    "seoKeywords": ["oftalmologista passo fundo", "médico dos olhos passo fundo", "catarata passo fundo", "glaucoma passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-006",
+    "fullName": "Dra. Patrícia Lima 6 ",
+    "slugUrl": "dra-patricia-lima-psicologa-passo-fundo-30",
+    "mainProfessionalTitle": "Psicóloga Clínica",
+    "secondarySpecialties": ["Terapia Cognitivo-Comportamental", "Orientação Profissional"],
+    "crm": "CRP 07/12345",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Psicóloga especializada em TCC para ansiedade, depressão e estresse, oferecendo apoio e ferramentas para o bem-estar mental em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99543-2109",
+      "whatsapp": "5554995432109",
+      "email": "contato@drapatricia.com.br",
+      "instagram": "https://www.instagram.com/drapatricialima"
+    },
+    "address": {
+      "street": "Av. Sete de Setembro, 800",
+      "neighborhood": "Vila Rodrigues",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99010-800",
+      "latitude": "-28.2750",
+      "longitude": "-52.4000",
+      "complement": "Sala 305"
+    },
+    "academicBackground": [
+      "Graduação em Psicologia - UFRGS (2010)",
+      "Especialização em Terapia Cognitivo-Comportamental - FADERGS (2012)"
+    ],
+    "seoKeywords": ["psicóloga passo fundo", "terapia passo fundo", "ansiedade passo fundo", "depressão passo fundo", "tcc passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-007",
+    "fullName": "Dr. Ricardo Nunes 7",
+    "slugUrl": "dr-ricardo-nunes-ortopedista-passo-fundo",
+    "mainProfessionalTitle": "Ortopedista e Traumatologista",
+    "secondarySpecialties": ["Cirurgia do Joelho", "Medicina Esportiva"],
+    "crm": "CRM/RS 22334",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Ortopedista com especialização em lesões esportivas e cirurgia do joelho, auxiliando na recuperação e performance de atletas em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99111-2233",
+      "whatsapp": "5554991112233",
+      "email": "contato@drricardo.com.br"
+    },
+    "address": {
+      "street": "Rua do Esporte, 200",
+      "neighborhood": "Cidade Nova",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99050-200",
+      "latitude": "-28.2900",
+      "longitude": "-52.4150",
+      "observations": "Ao lado da academia FitLife"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFRGS (2004)",
+      "Residência em Ortopedia e Traumatologia - Hospital Moinhos de Vento (2007)"
+    ],
+    "seoKeywords": ["ortopedista passo fundo", "traumatologista passo fundo", "cirurgia joelho passo fundo", "medicina esportiva passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-008",
+    "fullName": "Dra. Fernanda Guedes 8",
+    "slugUrl": "dra-fernanda-guedes-endocrinologista-passo-fundo",
+    "mainProfessionalTitle": "Endocrinologista",
+    "secondarySpecialties": ["Diabetes", "Tireoide"],
+    "crm": "CRM/RS 33445",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Endocrinologista dedicada ao tratamento de diabetes, doenças da tireoide e distúrbios hormonais, visando o equilíbrio e saúde integral em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99444-5566",
+      "whatsapp": "5554994445566",
+      "email": "contato@drafernanda.com.br",
+      "linkedin": "https://www.linkedin.com/in/drafernandaguedes"
+    },
+    "address": {
+      "street": "Rua da Harmonia, 30",
+      "neighborhood": "Petrópolis",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99050-030",
+      "latitude": "-28.2850",
+      "longitude": "-52.4250",
+      "complement": "Sala 401"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UERJ (2007)",
+      "Residência em Endocrinologia e Metabologia - HSL-PUCRS (2010)"
+    ],
+    "seoKeywords": ["endocrinologista passo fundo", "diabetes passo fundo", "tireoide passo fundo", "distúrbios hormonais passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-009",
+    "fullName": "Dr. João Silva 9",
+    "slugUrl": "dr-joao-silva-cardiologista-passo-fundo-01",
+    "mainProfessionalTitle": "Cardiologista",
+    "secondarySpecialties": ["Clínica Médica", "Ecocardiografia"],
+    "crm": "CRM/RS 12345",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Médico cardiologista com mais de 15 anos de experiência, focado em tratamento de arritmias e prevenção cardiovascular em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 98765-4321",
+      "whatsapp": "5554987654321",
+      "email": "contato@drjoao.com.br",
+      "instagram": "https://www.instagram.com/drjoaosilva",
+      "linkedin": "https://www.linkedin.com/in/drjoaosilva"
+    },
+    "address": {
+      "street": "Rua Independência, 123",
+      "neighborhood": "Centro",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99010-123",
+      "latitude": "-28.2606",
+      "longitude": "-52.4045",
+      "complement": "Sala 101",
+      "observations": "Próximo à Praça da Matriz"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFRGS (2000)",
+      "Residência em Cardiologia - Hospital de Clínicas de Porto Alegre (2002)"
+    ],
+    "seoKeywords": ["cardiologista passo fundo", "médico coração passo fundo", "arritmia passo fundo", "clínica médica passo fundo", "hipertensão passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-010",
+    "fullName": "Dra. Maria Oliveira 10",
+    "slugUrl": "dra-maria-oliveira-pediatra-passo-fundo-02",
+    "mainProfessionalTitle": "Pediatra",
+    "secondarySpecialties": ["Neonatologia", "Pneumologia Pediátrica"],
+    "crm": "CRM/RS 54321",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Pediatra com foco em desenvolvimento infantil e saúde respiratória de crianças, com atendimento acolhedor em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99876-5432",
+      "whatsapp": "5554998765432",
+      "email": "contato@dramaria.com.br",
+      "instagram": "https://www.instagram.com/dramariaoliveira"
+    },
+    "address": {
+      "street": "Avenida Brasil, 456",
+      "neighborhood": "Centro",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99020-456",
+      "latitude": "-28.2610",
+      "longitude": "-52.4050",
+      "complement": "Sala 202",
+      "observations": "Em frente ao Shopping Central"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFPel (2005)",
+      "Residência em Pediatria - Hospital da Criança Santo Antônio (2007)"
+    ],
+    "seoKeywords": ["pediatra passo fundo", "médico infantil passo fundo", "saúde da criança passo fundo", "pneumologia pediátrica passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-011",
+    "fullName": "Dr. Pedro Santos",
+    "slugUrl": "dr-pedro-santos-dermatologista-passo-fundo-03",
+    "mainProfessionalTitle": "Dermatologista",
+    "secondarySpecialties": ["Dermatoscopia", "Tricologia"],
+    "crm": "CRM/RS 67890",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Especialista em doenças de pele, cabelo e unhas, oferecendo tratamentos avançados para acne, melasma e queda de cabelo em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99345-6789",
+      "whatsapp": "5554993456789",
+      "email": "contato@drpedro.com.br"
+    },
+    "address": {
+      "street": "Rua dos Andradas, 789",
+      "neighborhood": "Boqueirão",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99030-789",
+      "latitude": "-28.2700",
+      "longitude": "-52.4100",
+      "complement": "Clínica Vida",
+      "observations": "Próximo à Farmácia Essencial"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - PUCRS (2008)",
+      "Residência em Dermatologia - Santa Casa de Porto Alegre (2010)"
+    ],
+    "seoKeywords": ["dermatologista passo fundo", "acne passo fundo", "melasma passo fundo", "queda de cabelo passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-012",
+    "fullName": "Dra. Ana Costa",
+    "slugUrl": "dra-ana-costa-ginecologista-passo-fundo-04",
+    "mainProfessionalTitle": "Ginecologista e Obstetra",
+    "secondarySpecialties": ["Reprodução Humana", "Climatério"],
+    "crm": "CRM/RS 09876",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Ginecologista dedicada à saúde feminina em todas as fases, do planejamento familiar à menopausa, com abordagem humanizada em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99678-9012",
+      "whatsapp": "5554996789012",
+      "email": "contato@draana.com.br",
+      "linkedin": "https://www.linkedin.com/in/draanacosta"
+    },
+    "address": {
+      "street": "Travessa Vênus, 10",
+      "neighborhood": "Vila Lucas",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99040-010",
+      "latitude": "-28.2800",
+      "longitude": "-52.4200",
+      "observations": "Edifício Saúde Feminina"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFRGS (2003)",
+      "Residência em Ginecologia e Obstetrícia - Hospital de Clínicas de Porto Alegre (2006)"
+    ],
+    "seoKeywords": ["ginecologista passo fundo", "obstetra passo fundo", "saúde da mulher passo fundo", "menopausa passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-013",
+    "fullName": "Dr. Carlos Eduardo",
+    "slugUrl": "dr-carlos-eduardo-oftalmologista-passo-05",
+    "mainProfessionalTitle": "Oftalmologista",
+    "secondarySpecialties": ["Cirurgia de Catarata", "Glaucoma"],
+    "crm": "CRM/RS 11223",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Oftalmologista com vasta experiência em diagnóstico e tratamento de doenças oculares, incluindo cirurgias, em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99012-3456",
+      "whatsapp": "5554990123456",
+      "email": "contato@drcarloseduardo.com.br"
+    },
+    "address": {
+      "street": "Rua da Visão, 50",
+      "neighborhood": "Centro",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99010-050",
+      "latitude": "-28.2620",
+      "longitude": "-52.4060",
+      "complement": "Edifício Olhos Verdes"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFSC (2001)",
+      "Residência em Oftalmologia - Hospital de Olhos de SP (2004)"
+    ],
+    "seoKeywords": ["oftalmologista passo fundo", "médico dos olhos passo fundo", "catarata passo fundo", "glaucoma passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-014",
+    "fullName": "Dra. Patrícia Lima",
+    "slugUrl": "dra-patricia-lima-psicologa-passo-fundo-06",
+    "mainProfessionalTitle": "Psicóloga Clínica",
+    "secondarySpecialties": ["Terapia Cognitivo-Comportamental", "Orientação Profissional"],
+    "crm": "CRP 07/12345",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Psicóloga especializada em TCC para ansiedade, depressão e estresse, oferecendo apoio e ferramentas para o bem-estar mental em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99543-2109",
+      "whatsapp": "5554995432109",
+      "email": "contato@drapatricia.com.br",
+      "instagram": "https://www.instagram.com/drapatricialima"
+    },
+    "address": {
+      "street": "Av. Sete de Setembro, 800",
+      "neighborhood": "Vila Rodrigues",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99010-800",
+      "latitude": "-28.2750",
+      "longitude": "-52.4000",
+      "complement": "Sala 305"
+    },
+    "academicBackground": [
+      "Graduação em Psicologia - UFRGS (2010)",
+      "Especialização em Terapia Cognitivo-Comportamental - FADERGS (2012)"
+    ],
+    "seoKeywords": ["psicóloga passo fundo", "terapia passo fundo", "ansiedade passo fundo", "depressão passo fundo", "tcc passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-015",
+    "fullName": "Dr. Ricardo Nunes",
+    "slugUrl": "dr-ricardo-nunes-ortopedista-passo-fundo-07",
+    "mainProfessionalTitle": "Ortopedista e Traumatologista",
+    "secondarySpecialties": ["Cirurgia do Joelho", "Medicina Esportiva"],
+    "crm": "CRM/RS 22334",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Ortopedista com especialização em lesões esportivas e cirurgia do joelho, auxiliando na recuperação e performance de atletas em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99111-2233",
+      "whatsapp": "5554991112233",
+      "email": "contato@drricardo.com.br"
+    },
+    "address": {
+      "street": "Rua do Esporte, 200",
+      "neighborhood": "Cidade Nova",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99050-200",
+      "latitude": "-28.2900",
+      "longitude": "-52.4150",
+      "observations": "Ao lado da academia FitLife"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFRGS (2004)",
+      "Residência em Ortopedia e Traumatologia - Hospital Moinhos de Vento (2007)"
+    ],
+    "seoKeywords": ["ortopedista passo fundo", "traumatologista passo fundo", "cirurgia joelho passo fundo", "medicina esportiva passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-016",
+    "fullName": "Dra. Fernanda Guedes",
+    "slugUrl": "dra-fernanda-guedes-endocrinologista-passo-fundo-08",
+    "mainProfessionalTitle": "Endocrinologista",
+    "secondarySpecialties": ["Diabetes", "Tireoide"],
+    "crm": "CRM/RS 33445",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Endocrinologista dedicada ao tratamento de diabetes, doenças da tireoide e distúrbios hormonais, visando o equilíbrio e saúde integral em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99444-5566",
+      "whatsapp": "5554994445566",
+      "email": "contato@drafernanda.com.br",
+      "linkedin": "https://www.linkedin.com/in/drafernandaguedes"
+    },
+    "address": {
+      "street": "Rua da Harmonia, 30",
+      "neighborhood": "Petrópolis",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99050-030",
+      "latitude": "-28.2850",
+      "longitude": "-52.4250",
+      "complement": "Sala 401"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UERJ (2007)",
+      "Residência em Endocrinologia e Metabologia - HSL-PUCRS (2010)"
+    ],
+    "seoKeywords": ["endocrinologista passo fundo", "diabetes passo fundo", "tireoide passo fundo", "distúrbios hormonais passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-017",
+    "fullName": "Dr. João Silva",
+    "slugUrl": "dr-joao-silva-cardiologista-passo-fundo-09",
+    "mainProfessionalTitle": "Cardiologista",
+    "secondarySpecialties": ["Clínica Médica", "Ecocardiografia"],
+    "crm": "CRM/RS 12345",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Médico cardiologista com mais de 15 anos de experiência, focado em tratamento de arritmias e prevenção cardiovascular em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 98765-4321",
+      "whatsapp": "5554987654321",
+      "email": "contato@drjoao.com.br",
+      "instagram": "https://www.instagram.com/drjoaosilva",
+      "linkedin": "https://www.linkedin.com/in/drjoaosilva"
+    },
+    "address": {
+      "street": "Rua Independência, 123",
+      "neighborhood": "Centro",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99010-123",
+      "latitude": "-28.2606",
+      "longitude": "-52.4045",
+      "complement": "Sala 101",
+      "observations": "Próximo à Praça da Matriz"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFRGS (2000)",
+      "Residência em Cardiologia - Hospital de Clínicas de Porto Alegre (2002)"
+    ],
+    "seoKeywords": ["cardiologista passo fundo", "médico coração passo fundo", "arritmia passo fundo", "clínica médica passo fundo", "hipertensão passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-018",
+    "fullName": "Dra. Maria Oliveira",
+    "slugUrl": "dra-maria-oliveira-pediatra-passo-fundo-10",
+    "mainProfessionalTitle": "Pediatra",
+    "secondarySpecialties": ["Neonatologia", "Pneumologia Pediátrica"],
+    "crm": "CRM/RS 54321",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Pediatra com foco em desenvolvimento infantil e saúde respiratória de crianças, com atendimento acolhedor em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99876-5432",
+      "whatsapp": "5554998765432",
+      "email": "contato@dramaria.com.br",
+      "instagram": "https://www.instagram.com/dramariaoliveira"
+    },
+    "address": {
+      "street": "Avenida Brasil, 456",
+      "neighborhood": "Centro",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99020-456",
+      "latitude": "-28.2610",
+      "longitude": "-52.4050",
+      "complement": "Sala 202",
+      "observations": "Em frente ao Shopping Central"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFPel (2005)",
+      "Residência em Pediatria - Hospital da Criança Santo Antônio (2007)"
+    ],
+    "seoKeywords": ["pediatra passo fundo", "médico infantil passo fundo", "saúde da criança passo fundo", "pneumologia pediátrica passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-019",
+    "fullName": "Dr. Pedro Santos",
+    "slugUrl": "dr-pedro-santos-dermatologista-passo-fundo-11",
+    "mainProfessionalTitle": "Dermatologista",
+    "secondarySpecialties": ["Dermatoscopia", "Tricologia"],
+    "crm": "CRM/RS 67890",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Especialista em doenças de pele, cabelo e unhas, oferecendo tratamentos avançados para acne, melasma e queda de cabelo em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99345-6789",
+      "whatsapp": "5554993456789",
+      "email": "contato@drpedro.com.br"
+    },
+    "address": {
+      "street": "Rua dos Andradas, 789",
+      "neighborhood": "Boqueirão",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99030-789",
+      "latitude": "-28.2700",
+      "longitude": "-52.4100",
+      "complement": "Clínica Vida",
+      "observations": "Próximo à Farmácia Essencial"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - PUCRS (2008)",
+      "Residência em Dermatologia - Santa Casa de Porto Alegre (2010)"
+    ],
+    "seoKeywords": ["dermatologista passo fundo", "acne passo fundo", "melasma passo fundo", "queda de cabelo passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-020",
+    "fullName": "Dra. Ana Costa",
+    "slugUrl": "dra-ana-costa-ginecologista-passo-fundo-12",
+    "mainProfessionalTitle": "Ginecologista e Obstetra",
+    "secondarySpecialties": ["Reprodução Humana", "Climatério"],
+    "crm": "CRM/RS 09876",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Ginecologista dedicada à saúde feminina em todas as fases, do planejamento familiar à menopausa, com abordagem humanizada em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99678-9012",
+      "whatsapp": "5554996789012",
+      "email": "contato@draana.com.br",
+      "linkedin": "https://www.linkedin.com/in/draanacosta"
+    },
+    "address": {
+      "street": "Travessa Vênus, 10",
+      "neighborhood": "Vila Lucas",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99040-010",
+      "latitude": "-28.2800",
+      "longitude": "-52.4200",
+      "observations": "Edifício Saúde Feminina"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFRGS (2003)",
+      "Residência em Ginecologia e Obstetrícia - Hospital de Clínicas de Porto Alegre (2006)"
+    ],
+    "seoKeywords": ["ginecologista passo fundo", "obstetra passo fundo", "saúde da mulher passo fundo", "menopausa passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-021",
+    "fullName": "Dr. Carlos Eduardo",
+    "slugUrl": "dr-carlos-eduardo-oftalmologista-passo-fundo-13",
+    "mainProfessionalTitle": "Oftalmologista",
+    "secondarySpecialties": ["Cirurgia de Catarata", "Glaucoma"],
+    "crm": "CRM/RS 11223",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Oftalmologista com vasta experiência em diagnóstico e tratamento de doenças oculares, incluindo cirurgias, em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99012-3456",
+      "whatsapp": "5554990123456",
+      "email": "contato@drcarloseduardo.com.br"
+    },
+    "address": {
+      "street": "Rua da Visão, 50",
+      "neighborhood": "Centro",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99010-050",
+      "latitude": "-28.2620",
+      "longitude": "-52.4060",
+      "complement": "Edifício Olhos Verdes"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFSC (2001)",
+      "Residência em Oftalmologia - Hospital de Olhos de SP (2004)"
+    ],
+    "seoKeywords": ["oftalmologista passo fundo", "médico dos olhos passo fundo", "catarata passo fundo", "glaucoma passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-022",
+    "fullName": "Dra. Patrícia Lima",
+    "slugUrl": "dra-patricia-lima-psicologa-passo-fundo-14",
+    "mainProfessionalTitle": "Psicóloga Clínica",
+    "secondarySpecialties": ["Terapia Cognitivo-Comportamental", "Orientação Profissional"],
+    "crm": "CRP 07/12345",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Psicóloga especializada em TCC para ansiedade, depressão e estresse, oferecendo apoio e ferramentas para o bem-estar mental em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99543-2109",
+      "whatsapp": "5554995432109",
+      "email": "contato@drapatricia.com.br",
+      "instagram": "https://www.instagram.com/drapatricialima"
+    },
+    "address": {
+      "street": "Av. Sete de Setembro, 800",
+      "neighborhood": "Vila Rodrigues",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99010-800",
+      "latitude": "-28.2750",
+      "longitude": "-52.4000",
+      "complement": "Sala 305"
+    },
+    "academicBackground": [
+      "Graduação em Psicologia - UFRGS (2010)",
+      "Especialização em Terapia Cognitivo-Comportamental - FADERGS (2012)"
+    ],
+    "seoKeywords": ["psicóloga passo fundo", "terapia passo fundo", "ansiedade passo fundo", "depressão passo fundo", "tcc passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-023",
+    "fullName": "Dr. Ricardo Nunes",
+    "slugUrl": "dr-ricardo-nunes-ortopedista-passo-fundo-15",
+    "mainProfessionalTitle": "Ortopedista e Traumatologista",
+    "secondarySpecialties": ["Cirurgia do Joelho", "Medicina Esportiva"],
+    "crm": "CRM/RS 22334",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Ortopedista com especialização em lesões esportivas e cirurgia do joelho, auxiliando na recuperação e performance de atletas em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99111-2233",
+      "whatsapp": "5554991112233",
+      "email": "contato@drricardo.com.br"
+    },
+    "address": {
+      "street": "Rua do Esporte, 200",
+      "neighborhood": "Cidade Nova",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99050-200",
+      "latitude": "-28.2900",
+      "longitude": "-52.4150",
+      "observations": "Ao lado da academia FitLife"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFRGS (2004)",
+      "Residência em Ortopedia e Traumatologia - Hospital Moinhos de Vento (2007)"
+    ],
+    "seoKeywords": ["ortopedista passo fundo", "traumatologista passo fundo", "cirurgia joelho passo fundo", "medicina esportiva passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-024",
+    "fullName": "Dra. Fernanda Guedes",
+    "slugUrl": "dra-fernanda-guedes-endocrinologista-passo-fundo-16",
+    "mainProfessionalTitle": "Endocrinologista",
+    "secondarySpecialties": ["Diabetes", "Tireoide"],
+    "crm": "CRM/RS 33445",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Endocrinologista dedicada ao tratamento de diabetes, doenças da tireoide e distúrbios hormonais, visando o equilíbrio e saúde integral em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99444-5566",
+      "whatsapp": "5554994445566",
+      "email": "contato@drafernanda.com.br",
+      "linkedin": "https://www.linkedin.com/in/drafernandaguedes"
+    },
+    "address": {
+      "street": "Rua da Harmonia, 30",
+      "neighborhood": "Petrópolis",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99050-030",
+      "latitude": "-28.2850",
+      "longitude": "-52.4250",
+      "complement": "Sala 401"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UERJ (2007)",
+      "Residência em Endocrinologia e Metabologia - HSL-PUCRS (2010)"
+    ],
+    "seoKeywords": ["endocrinologista passo fundo", "diabetes passo fundo", "tireoide passo fundo", "distúrbios hormonais passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-025",
+    "fullName": "Dr. João Silva",
+    "slugUrl": "dr-joao-silva-cardiologista-passo-fundo-17",
+    "mainProfessionalTitle": "Cardiologista",
+    "secondarySpecialties": ["Clínica Médica", "Ecocardiografia"],
+    "crm": "CRM/RS 12345",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Médico cardiologista com mais de 15 anos de experiência, focado em tratamento de arritmias e prevenção cardiovascular em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 98765-4321",
+      "whatsapp": "5554987654321",
+      "email": "contato@drjoao.com.br",
+      "instagram": "https://www.instagram.com/drjoaosilva",
+      "linkedin": "https://www.linkedin.com/in/drjoaosilva"
+    },
+    "address": {
+      "street": "Rua Independência, 123",
+      "neighborhood": "Centro",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99010-123",
+      "latitude": "-28.2606",
+      "longitude": "-52.4045",
+      "complement": "Sala 101",
+      "observations": "Próximo à Praça da Matriz"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFRGS (2000)",
+      "Residência em Cardiologia - Hospital de Clínicas de Porto Alegre (2002)"
+    ],
+    "seoKeywords": ["cardiologista passo fundo", "médico coração passo fundo", "arritmia passo fundo", "clínica médica passo fundo", "hipertensão passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-026",
+    "fullName": "Dra. Maria Oliveira",
+    "slugUrl": "dra-maria-oliveira-pediatra-passo-fundo-18",
+    "mainProfessionalTitle": "Pediatra",
+    "secondarySpecialties": ["Neonatologia", "Pneumologia Pediátrica"],
+    "crm": "CRM/RS 54321",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Pediatra com foco em desenvolvimento infantil e saúde respiratória de crianças, com atendimento acolhedor em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99876-5432",
+      "whatsapp": "5554998765432",
+      "email": "contato@dramaria.com.br",
+      "instagram": "https://www.instagram.com/dramariaoliveira"
+    },
+    "address": {
+      "street": "Avenida Brasil, 456",
+      "neighborhood": "Centro",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99020-456",
+      "latitude": "-28.2610",
+      "longitude": "-52.4050",
+      "complement": "Sala 202",
+      "observations": "Em frente ao Shopping Central"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFPel (2005)",
+      "Residência em Pediatria - Hospital da Criança Santo Antônio (2007)"
+    ],
+    "seoKeywords": ["pediatra passo fundo", "médico infantil passo fundo", "saúde da criança passo fundo", "pneumologia pediátrica passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-027",
+    "fullName": "Dr. Pedro Santos",
+    "slugUrl": "dr-pedro-santos-dermatologista-passo-fundo-19",
+    "mainProfessionalTitle": "Dermatologista",
+    "secondarySpecialties": ["Dermatoscopia", "Tricologia"],
+    "crm": "CRM/RS 67890",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Especialista em doenças de pele, cabelo e unhas, oferecendo tratamentos avançados para acne, melasma e queda de cabelo em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99345-6789",
+      "whatsapp": "5554993456789",
+      "email": "contato@drpedro.com.br"
+    },
+    "address": {
+      "street": "Rua dos Andradas, 789",
+      "neighborhood": "Boqueirão",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99030-789",
+      "latitude": "-28.2700",
+      "longitude": "-52.4100",
+      "complement": "Clínica Vida",
+      "observations": "Próximo à Farmácia Essencial"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - PUCRS (2008)",
+      "Residência em Dermatologia - Santa Casa de Porto Alegre (2010)"
+    ],
+    "seoKeywords": ["dermatologista passo fundo", "acne passo fundo", "melasma passo fundo", "queda de cabelo passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-028",
+    "fullName": "Dra. Ana Costa",
+    "slugUrl": "dra-ana-costa-ginecologista-passo-fundo-20",
+    "mainProfessionalTitle": "Ginecologista e Obstetra",
+    "secondarySpecialties": ["Reprodução Humana", "Climatério"],
+    "crm": "CRM/RS 09876",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Ginecologista dedicada à saúde feminina em todas as fases, do planejamento familiar à menopausa, com abordagem humanizada em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99678-9012",
+      "whatsapp": "5554996789012",
+      "email": "contato@draana.com.br",
+      "linkedin": "https://www.linkedin.com/in/draanacosta"
+    },
+    "address": {
+      "street": "Travessa Vênus, 10",
+      "neighborhood": "Vila Lucas",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99040-010",
+      "latitude": "-28.2800",
+      "longitude": "-52.4200",
+      "observations": "Edifício Saúde Feminina"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFRGS (2003)",
+      "Residência em Ginecologia e Obstetrícia - Hospital de Clínicas de Porto Alegre (2006)"
+    ],
+    "seoKeywords": ["ginecologista passo fundo", "obstetra passo fundo", "saúde da mulher passo fundo", "menopausa passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-029",
+    "fullName": "Dr. Carlos Eduardo",
+    "slugUrl": "dr-carlos-eduardo-oftalmologista-passo-fundo-21",
+    "mainProfessionalTitle": "Oftalmologista",
+    "secondarySpecialties": ["Cirurgia de Catarata", "Glaucoma"],
+    "crm": "CRM/RS 11223",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Oftalmologista com vasta experiência em diagnóstico e tratamento de doenças oculares, incluindo cirurgias, em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99012-3456",
+      "whatsapp": "5554990123456",
+      "email": "contato@drcarloseduardo.com.br"
+    },
+    "address": {
+      "street": "Rua da Visão, 50",
+      "neighborhood": "Centro",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99010-050",
+      "latitude": "-28.2620",
+      "longitude": "-52.4060",
+      "complement": "Edifício Olhos Verdes"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFSC (2001)",
+      "Residência em Oftalmologia - Hospital de Olhos de SP (2004)"
+    ],
+    "seoKeywords": ["oftalmologista passo fundo", "médico dos olhos passo fundo", "catarata passo fundo", "glaucoma passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-030",
+    "fullName": "Dra. Patrícia Lima",
+    "slugUrl": "dra-patricia-lima-psicologa-passo-fund-2",
+    "mainProfessionalTitle": "Psicóloga Clínica",
+    "secondarySpecialties": ["Terapia Cognitivo-Comportamental", "Orientação Profissional"],
+    "crm": "CRP 07/12345",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Psicóloga especializada em TCC para ansiedade, depressão e estresse, oferecendo apoio e ferramentas para o bem-estar mental em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99543-2109",
+      "whatsapp": "5554995432109",
+      "email": "contato@drapatricia.com.br",
+      "instagram": "https://www.instagram.com/drapatricialima"
+    },
+    "address": {
+      "street": "Av. Sete de Setembro, 800",
+      "neighborhood": "Vila Rodrigues",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99010-800",
+      "latitude": "-28.2750",
+      "longitude": "-52.4000",
+      "complement": "Sala 305"
+    },
+    "academicBackground": [
+      "Graduação em Psicologia - UFRGS (2010)",
+      "Especialização em Terapia Cognitivo-Comportamental - FADERGS (2012)"
+    ],
+    "seoKeywords": ["psicóloga passo fundo", "terapia passo fundo", "ansiedade passo fundo", "depressão passo fundo", "tcc passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-031",
+    "fullName": "Dr. Ricardo Nunes",
+    "slugUrl": "dr-ricardo-nunes-ortopedista-passo-fundo-23",
+    "mainProfessionalTitle": "Ortopedista e Traumatologista",
+    "secondarySpecialties": ["Cirurgia do Joelho", "Medicina Esportiva"],
+    "crm": "CRM/RS 22334",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Ortopedista com especialização em lesões esportivas e cirurgia do joelho, auxiliando na recuperação e performance de atletas em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99111-2233",
+      "whatsapp": "5554991112233",
+      "email": "contato@drricardo.com.br"
+    },
+    "address": {
+      "street": "Rua do Esporte, 200",
+      "neighborhood": "Cidade Nova",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99050-200",
+      "latitude": "-28.2900",
+      "longitude": "-52.4150",
+      "observations": "Ao lado da academia FitLife"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UFRGS (2004)",
+      "Residência em Ortopedia e Traumatologia - Hospital Moinhos de Vento (2007)"
+    ],
+    "seoKeywords": ["ortopedista passo fundo", "traumatologista passo fundo", "cirurgia joelho passo fundo", "medicina esportiva passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  },
+  {
+    "id": "doc-032",
+    "fullName": "Dra. Fernanda Guedes",
+    "slugUrl": "dra-fernanda-guedes-endocrinologista-passo-fundo-24",
+    "mainProfessionalTitle": "Endocrinologista",
+    "secondarySpecialties": ["Diabetes", "Tireoide"],
+    "crm": "CRM/RS 33445",
+    "photoUrl": "/images/teste.jpg",
+    "shortDescription": "Endocrinologista dedicada ao tratamento de diabetes, doenças da tireoide e distúrbios hormonais, visando o equilíbrio e saúde integral em Passo Fundo.",
+    "contacts": {
+      "mainPhone": "(54) 99444-5566",
+      "whatsapp": "5554994445566",
+      "email": "contato@drafernanda.com.br",
+      "linkedin": "https://www.linkedin.com/in/drafernandaguedes"
+    },
+    "address": {
+      "street": "Rua da Harmonia, 30",
+      "neighborhood": "Petrópolis",
+      "city": "Passo Fundo",
+      "state": "RS",
+      "zipCode": "99050-030",
+      "latitude": "-28.2850",
+      "longitude": "-52.4250",
+      "complement": "Sala 401"
+    },
+    "academicBackground": [
+      "Graduação em Medicina - UERJ (2007)",
+      "Residência em Endocrinologia e Metabologia - HSL-PUCRS (2010)"
+    ],
+    "seoKeywords": ["endocrinologista passo fundo", "diabetes passo fundo", "tireoide passo fundo", "distúrbios hormonais passo fundo"],
+    "lastUpdated": "2024-10-27T10:00:00Z",
+    "status": "ativo"
+  }
+]

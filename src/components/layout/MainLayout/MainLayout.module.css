@@ -1,0 +1,105 @@
+/* src/components/layout/MainLayout/MainLayout.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f9fa; /* Fundo suave */
+}
+
+.header {
+  background-color: #007bff; /* Cor primária */
+  color: #fff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.headerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.nav a:hover {
+  opacity: 0.8;
+}
+
+.mainContent {
+  flex-grow: 1;
+  max-width: 1200px;
+  margin: 30px auto; /* Espaçamento superior e inferior */
+  padding: 0 20px;
+  width: 100%; /* Garante que ocupe a largura disponível */
+}
+
+.footer {
+  background-color: #343a40; /* Cor escura para o rodapé */
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+  margin-top: 40px; /* Espaçamento entre o conteúdo principal e o rodapé */
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .headerContent {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .logo {
+    font-size: 1.5em;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mainContent {
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+
+  .footer {
+    padding: 1rem 0;
+  }
+}

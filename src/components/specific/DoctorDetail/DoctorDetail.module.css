@@ -1,0 +1,202 @@
+/* src/components/specific/DoctorDetail/DoctorDetail.module.css */
+.doctorDetailContainer {
+  font-family: 'Poppins', sans-serif; /* Define uma fonte moderna */
+  color: #333;
+}
+
+.headerSection {
+  display: flex;
+  align-items: flex-start; /* Alinha o topo dos itens */
+  gap: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee; /* Linha divisória suave */
+  margin-bottom: 30px;
+}
+
+.profileImageWrapper {
+  flex-shrink: 0;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #007bff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.profileInfo {
+  flex-grow: 1; /* Permite que o texto ocupe o espaço restante */
+}
+
+.doctorName {
+  font-size: 2.5em;
+  color: #222;
+  margin-bottom: 5px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.doctorSpecialty {
+  font-size: 1.5em;
+  color: #007bff;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.secondarySpecialties {
+  font-size: 0.95em;
+  color: #666;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.doctorCrm {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.shortDescription {
+  font-size: 1.1em;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.contactLinks {
+  display: flex;
+  flex-wrap: wrap; /* Quebra linha se houver muitos links */
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+  font-size: 0.95em;
+}
+
+.contactItem:hover {
+  color: #0056b3;
+}
+
+.contactItem .icon {
+  color: #007bff; /* Cor padrão para ícones de contato */
+  font-size: 1.2em;
+}
+
+/* Cores específicas para ícones de marca nos links de contato */
+.contactItem a[href*="whatsapp"] .icon { color: #25D366; }
+.contactItem a[href*="instagram"] .icon { color: #E4405F; }
+.contactItem a[href*="linkedin"] .icon { color: #0077B5; }
+
+
+.section {
+  margin-bottom: 30px;
+}
+
+.sectionTitle {
+  font-size: 1.8em;
+  color: #222;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  border-bottom: 2px solid #eee; /* Linha de fundo para o título */
+  padding-bottom: 10px;
+}
+
+.sectionIcon {
+  color: #007bff; /* Cor do ícone na seção */
+  font-size: 1.1em;
+}
+
+.addressText {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+.addressObservations {
+  font-size: 0.9em;
+  color: #888;
+  font-style: italic;
+}
+
+.academicList {
+  list-style: none; /* Remove marcadores padrão */
+  padding: 0;
+}
+
+.academicList li {
+  background-color: #f8f9fa; /* Fundo suave para cada item */
+  border-left: 3px solid #007bff; /* Borda esquerda colorida */
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 0.95em;
+  color: #444;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .headerSection {
+    flex-direction: column; /* Pilha itens verticalmente */
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .profileImageWrapper {
+    width: 190px;
+    height: 190px;
+  }
+
+  .doctorName {
+    font-size: 2em;
+  }
+
+  .doctorSpecialty {
+    font-size: 1.2em;
+  }
+
+  .shortDescription {
+    font-size: 1em;
+  }
+
+  .contactLinks {
+    justify-content: center; /* Centraliza links */
+    gap: 10px;
+  }
+
+  .contactItem {
+    font-size: 0.9em;
+  }
+
+  .sectionTitle {
+    font-size: 1.5em;
+    justify-content: center; /* Centraliza o título da seção */
+    text-align: center;
+  }
+
+  .academicList li {
+    font-size: 0.9em;
+    padding: 8px 12px;
+  }
+}

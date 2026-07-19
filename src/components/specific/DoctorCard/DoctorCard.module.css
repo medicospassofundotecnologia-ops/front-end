@@ -1,0 +1,234 @@
+/* src/components/specific/DoctorCard/DoctorCard.module.css */
+
+/* Mantido o mesmo CSS base para desktop */
+.doctorCardWrapper {
+  position: relative; /* FUNDAMENTAL: Permite que .socialLinks seja absolute no desktop */
+  max-width: 900px;
+  margin: 0 auto 25px auto;
+  /* Não aplicamos background/shadow/padding aqui para desktop, pois .doctorCard já faz isso */
+}
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block; /* Garante que ocupe a largura disponível para o hover, etc. */
+}
+
+.doctorCard {
+  background-color: #ffffff; /* Cor de fundo do card */
+  border-radius: 12px; /* Cantos arredondados */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* Sombra suave */
+  padding: 20px; /* Espaçamento interno */
+  display: flex; /* Layout em linha para desktop */
+  gap: 20px;
+  align-items: flex-start;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.doctorCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.imageWrapper {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #007bff;
+  background-color: #e9f5ff;
+}
+
+.doctorImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.infoContainer {
+  flex-grow: 1;
+}
+
+.doctorName {
+  font-size: 1.6em;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.doctorSpecialty {
+  font-size: 1.1em;
+  color: #007bff;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.doctorLocation { /* Este estilo se aplica ao seu endereço formatado */
+  font-size: 0.95em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.doctorDescription {
+  font-size: 0.9em;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.viewProfileButton {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.viewProfileButton:hover {
+  background-color: #0056b3;
+}
+
+.socialLinks {
+  position: absolute; /* Desktop: flutua sobre o card principal */
+  top: 15px;
+  right: 15px;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.socialLinks a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f2f5;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  color: #333;
+}
+
+.socialLinks a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.whatsappIcon {
+  color: #25D366;
+}
+
+.whatsappIcon:hover {
+  background-color: #25D366;
+  color: #fff;
+}
+
+.instagramIcon {
+  color: #E4405F;
+}
+
+.instagramIcon:hover {
+  background-color: #E4405F;
+  color: #fff;
+}
+
+/* --- Mobile-specific styles --- */
+@media (max-width: 768px) {
+  /* No mobile, o .doctorCardWrapper se torna o container principal e visível */
+  .doctorCardWrapper {
+    display: flex; /* Transforma o wrapper em um flex container */
+    flex-direction: column; /* Empilha os filhos verticalmente */
+    /* Remove as propriedades de posicionamento e largura que não se aplicam */
+    position: static; /* Remove o position: relative herdado do desktop se necessário */
+    max-width: none; /* Permite que ocupe a largura total */
+    margin: 0 auto 15px auto; /* Ajusta margem inferior entre os cards */
+
+    /* Move as propriedades visuais do .doctorCard para o .doctorCardWrapper no mobile */
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    padding: 15px; /* Aplica o padding ao wrapper para envolver tudo */
+    
+    /* min-height para garantir que sempre haja espaço suficiente */
+    min-height: 400px; /* Ajuste este valor se ainda houver problemas */
+  }
+
+  .cardLink {
+    display: flex; /* Faz o link um container flex para o .doctorCard */
+    flex-direction: column; /* Conteúdo principal do médico empilhado */
+    align-items: center;
+    text-align: center;
+    flex-grow: 1; /* Permite que o conteúdo principal do médico ocupe o espaço */
+    gap: 15px; /* Espaçamento entre os elementos dentro do .doctorCard */
+    padding: 0; /* Remove padding duplicado se o wrapper já tiver */
+    margin-bottom: 15px; /* Espaço entre o conteúdo principal e os links sociais */
+  }
+
+  .doctorCard { /* Resetar o .doctorCard interno para não ter background/shadow/padding duplicado */
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0; /* Remove padding, já aplicado ao wrapper */
+    display: flex; /* Re-aplica display flex para o conteúdo interno */
+    flex-direction: column; /* Empilha verticalmente o conteúdo */
+    align-items: center;
+    text-align: center;
+    gap: 0; /* Ajusta o gap se necessário, o gap principal está no .cardLink */
+    width: 100%; /* Garante que ocupe a largura total dentro do cardLink */
+  }
+
+  .imageWrapper {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 10px;
+  }
+
+  .doctorName {
+    font-size: 1.4em;
+  }
+
+  .doctorSpecialty {
+    font-size: 1em;
+  }
+
+  .doctorLocation,
+  .doctorDescription {
+    font-size: 0.85em;
+  }
+
+  .viewProfileButton {
+    padding: 7px 12px;
+    font-size: 0.8em;
+    margin-top: 10px; /* Mantém o espaçamento acima do botão */
+  }
+
+  .socialLinks {
+    position: static; /* Mobile: volta ao fluxo normal do documento */
+    margin-top: 0; /* A margem é tratada pelo margin-bottom do .cardLink */
+    justify-content: center;
+    padding-top: 10px; /* Um pouco de padding acima dos ícones, se necessário */
+    border-top: 1px solid #eee; /* Linha divisória sutil, opcional */
+  }
+
+  /* Ajustes para telas ainda menores */
+  @media (max-width: 480px) {
+    .doctorCardWrapper {
+      min-height: 450px; /* Pode precisar de mais altura para telas muito pequenas */
+      padding: 10px;
+    }
+    .cardLink {
+      margin-bottom: 10px;
+    }
+    .socialLinks {
+      padding-top: 5px;
+    }
+  }
+}

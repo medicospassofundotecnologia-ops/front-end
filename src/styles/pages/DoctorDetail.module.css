@@ -1,0 +1,61 @@
+/* src/styles/pages/DoctorDetail.module.css */
+/* Estilos para a página que envolve o componente DoctorDetail */
+.doctorDetailPage {
+  max-width: 900px; /* Largura máxima do conteúdo da página */
+  margin: 0 auto; /* Centraliza a página */
+  padding: 30px 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* Sombra suave */
+}
+
+/* Estilos para estado de carregamento e não encontrado */
+.loading, .notFoundContainer {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.notFoundTitle {
+  font-size: 2.2em;
+  color: #d9534f; /* Cor de erro */
+  margin-bottom: 15px;
+}
+
+.notFoundText {
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.backButton {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+  background-color: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .doctorDetailPage {
+    padding: 20px 15px;
+    margin: 0 10px; /* Margem nas laterais para telas pequenas */
+  }
+  .notFoundTitle {
+    font-size: 1.8em;
+  }
+  .notFoundText {
+    font-size: 1em;
+  }
+  .backButton {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+}
