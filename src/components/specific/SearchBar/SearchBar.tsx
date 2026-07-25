@@ -1,8 +1,9 @@
 // src/components/specific/SearchBar/SearchBar.tsx
 import React, { useState, useEffect, KeyboardEvent } from 'react';
 import styles from './SearchBar.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importar FontAwesome
-import { faSearch } from '@fortawesome/free-solid-svg-icons'; // Ícone de busca
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { pushEvent } from '@/lib/gtm';
 
 interface SearchBarProps {
   /** O termo de busca inicial para popular o campo. */
@@ -34,14 +35,19 @@ const SearchBar: React.FC<SearchBarProps> = ({
     setInputValue(e.target.value);
   };
 
+  const submitSearch = (term: string) => {
+    pushEvent('search_submit', { search_term: term });
+    onSearchSubmit(term);
+  };
+
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
-      onSearchSubmit(inputValue.trim()); // Trim para remover espaços em branco
+      submitSearch(inputValue.trim());
     }
   };
 
   const handleSearchClick = () => {
-    onSearchSubmit(inputValue.trim()); // Trim para remover espaços em branco
+    submitSearch(inputValue.trim());
   };
 
   return (

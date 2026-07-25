@@ -5,6 +5,7 @@ import { track } from '@vercel/analytics';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { Doctor } from '@/types/doctor';
+import { pushEvent } from '@/lib/gtm';
 import styles from './DoctorCard.module.css';
 
 interface DoctorCardProps {
@@ -21,16 +22,34 @@ const DoctorCard: React.FC<DoctorCardProps> = ({ doctor }) => {
     return `https://wa.me/${cleanedNumber}?text=${encodeURIComponent(message)}`;
   };
 
+  const trackingProps = {
+    doctor_name: doctor.fullName,
+    specialty: doctor.mainProfessionalTitle,
+    source: 'lista',
+  };
+
+  const handleCardClick = () => {
+    pushEvent('doctor_card_click', trackingProps);
+    track('doctor_card_click', trackingProps);
+  };
+
+  const handleWhatsappClick = () => {
+    pushEvent('whatsapp_click', trackingProps);
+    track('whatsapp_click', trackingProps);
+  };
+
+  const handleInstagramClick = () => {
+    pushEvent('instagram_click', trackingProps);
+    track('instagram_click', trackingProps);
+  };
+
   return (
     <div className={styles.doctorCardWrapper}>
       <Link
         href={`/medicos/${doctor.slugUrl}`}
         passHref
         className={styles.cardLink}
-        onClick={() => track('doctor_card_click', {
-          doctor_name: doctor.fullName,
-          specialty: doctor.mainProfessionalTitle,
-        })}
+        onClick={handleCardClick}
       >
         <div className={styles.doctorCard}>
           <div className={styles.imageWrapper}>
@@ -58,11 +77,7 @@ const DoctorCard: React.FC<DoctorCardProps> = ({ doctor }) => {
             rel="noopener noreferrer"
             className={styles.whatsappIcon}
             aria-label={`WhatsApp de ${doctor.fullName}`}
-            onClick={() => track('whatsapp_click', {
-              doctor_name: doctor.fullName,
-              specialty: doctor.mainProfessionalTitle,
-              source: 'card',
-            })}
+            onClick={handleWhatsappClick}
           >
             <FontAwesomeIcon icon={faWhatsapp} size="2x" />
           </a>
@@ -74,11 +89,7 @@ const DoctorCard: React.FC<DoctorCardProps> = ({ doctor }) => {
             rel="noopener noreferrer"
             className={styles.instagramIcon}
             aria-label={`Instagram de ${doctor.fullName}`}
-            onClick={() => track('instagram_click', {
-              doctor_name: doctor.fullName,
-              specialty: doctor.mainProfessionalTitle,
-              source: 'card',
-            })}
+            onClick={handleInstagramClick}
           >
             <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>

@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faPhone, faEnvelope, faMapMarkerAlt, faGraduationCap, faTag } from '@fortawesome/free-solid-svg-icons';
 import { Doctor } from '@/types/doctor';
+import { pushEvent } from '@/lib/gtm';
 import styles from './DoctorDetail.module.css';
 
 interface DoctorDetailProps {
@@ -24,7 +25,32 @@ const DoctorDetail: React.FC<DoctorDetailProps> = ({ doctor }) => {
   const trackingProps = {
     doctor_name: doctor.fullName,
     specialty: doctor.mainProfessionalTitle,
-    source: 'profile',
+    source: 'perfil',
+  };
+
+  const handlePhoneClick = () => {
+    pushEvent('phone_click', trackingProps);
+    track('phone_click', trackingProps);
+  };
+
+  const handleWhatsappClick = () => {
+    pushEvent('whatsapp_click', trackingProps);
+    track('whatsapp_click', trackingProps);
+  };
+
+  const handleEmailClick = () => {
+    pushEvent('email_click', trackingProps);
+    track('email_click', trackingProps);
+  };
+
+  const handleInstagramClick = () => {
+    pushEvent('instagram_click', trackingProps);
+    track('instagram_click', trackingProps);
+  };
+
+  const handleLinkedinClick = () => {
+    pushEvent('linkedin_click', trackingProps);
+    track('linkedin_click', trackingProps);
   };
 
   return (
@@ -57,7 +83,7 @@ const DoctorDetail: React.FC<DoctorDetailProps> = ({ doctor }) => {
                 href={`tel:${doctor.contacts.mainPhone.replace(/\D/g, '')}`}
                 className={styles.contactItem}
                 aria-label={`Ligar para ${doctor.fullName}`}
-                onClick={() => track('phone_click', trackingProps)}
+                onClick={handlePhoneClick}
               >
                 <FontAwesomeIcon icon={faPhone} className={styles.icon} />
                 <span>{doctor.contacts.mainPhone}</span>
@@ -70,7 +96,7 @@ const DoctorDetail: React.FC<DoctorDetailProps> = ({ doctor }) => {
                 rel="noopener noreferrer"
                 className={styles.contactItem}
                 aria-label={`WhatsApp de ${doctor.fullName}`}
-                onClick={() => track('whatsapp_click', trackingProps)}
+                onClick={handleWhatsappClick}
               >
                 <FontAwesomeIcon icon={faWhatsapp} className={styles.icon} />
                 <span>Enviar mensagem</span>
@@ -81,7 +107,7 @@ const DoctorDetail: React.FC<DoctorDetailProps> = ({ doctor }) => {
                 href={`mailto:${doctor.contacts.email}`}
                 className={styles.contactItem}
                 aria-label={`Email para ${doctor.fullName}`}
-                onClick={() => track('email_click', trackingProps)}
+                onClick={handleEmailClick}
               >
                 <FontAwesomeIcon icon={faEnvelope} className={styles.icon} />
                 <span>{doctor.contacts.email}</span>
@@ -94,7 +120,7 @@ const DoctorDetail: React.FC<DoctorDetailProps> = ({ doctor }) => {
                 rel="noopener noreferrer"
                 className={styles.contactItem}
                 aria-label={`Instagram de ${doctor.fullName}`}
-                onClick={() => track('instagram_click', trackingProps)}
+                onClick={handleInstagramClick}
               >
                 <FontAwesomeIcon icon={faInstagram} className={styles.icon} />
                 <span>Instagram</span>
@@ -107,7 +133,7 @@ const DoctorDetail: React.FC<DoctorDetailProps> = ({ doctor }) => {
                 rel="noopener noreferrer"
                 className={styles.contactItem}
                 aria-label={`LinkedIn de ${doctor.fullName}`}
-                onClick={() => track('linkedin_click', trackingProps)}
+                onClick={handleLinkedinClick}
               >
                 <FontAwesomeIcon icon={faLinkedin} className={styles.icon} />
                 <span>LinkedIn</span>
