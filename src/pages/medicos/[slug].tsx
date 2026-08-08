@@ -31,6 +31,26 @@ const DoctorPage: React.FC<DoctorPageProps> = ({ doctor }) => {
     );
   }
 
+  const schemaData = {
+    '@context': 'https://schema.org',
+    '@type': 'Physician',
+    name: doctor.fullName,
+    description: doctor.shortDescription,
+    medicalSpecialty: doctor.mainProfessionalTitle,
+    image: doctor.photoUrl,
+    telephone: doctor.contacts.mainPhone,
+    email: doctor.contacts.email,
+    url: `https://medicospassofundo.com.br/medicos/${doctor.slugUrl}`,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: `${doctor.address.street}${doctor.address.complement ? ` - ${doctor.address.complement}` : ''}`,
+      addressLocality: doctor.address.city,
+      addressRegion: doctor.address.state,
+      addressCountry: 'BR',
+    },
+    ...(doctor.contacts.instagram && { sameAs: [doctor.contacts.instagram] }),
+  };
+
   return (
     <>
       <Head>
@@ -40,7 +60,11 @@ const DoctorPage: React.FC<DoctorPageProps> = ({ doctor }) => {
         <meta property="og:description" content={doctor.shortDescription} />
         <meta property="og:image" content={doctor.photoUrl} />
         <meta property="og:type" content="profile" />
-        <meta property="og:url" content={`https://www.medicospassofundo.com.br/medicos/${doctor.slugUrl}`} /> {/* <--- ROTA ATUALIZADA AQUI */}
+        <meta property="og:url" content={`https://medicospassofundo.com.br/medicos/${doctor.slugUrl}`} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
       </Head>
       <div className={styles.doctorDetailPage}>
         <DoctorDetail doctor={doctor} />
