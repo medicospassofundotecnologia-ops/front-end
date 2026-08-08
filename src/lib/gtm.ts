@@ -1,5 +1,5 @@
 // src/lib/gtm.ts
-export const GTM_ID = 'GTM-XXXXXXX'; // substituir pelo ID real após criar o container
+export const GTM_ID = 'GTM-M4MGBGTK';
 
 declare global {
   interface Window {
