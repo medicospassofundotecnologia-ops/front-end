@@ -6,6 +6,7 @@ export default function Document() {
   return (
     <Html lang="pt-BR">
       <Head>
+        <meta name="google-site-verification" content="KOxSgMkKc9INlqf1KIyBsWPFbrqVOsdDTrkiOuTuT10" />
         <script
           dangerouslySetInnerHTML={{
             __html: `

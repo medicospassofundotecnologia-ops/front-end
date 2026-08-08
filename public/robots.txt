@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /busca/
+
+Sitemap: https://medicospassofundo.com.br/sitemap.xml
