@@ -7,7 +7,7 @@ export default function Document() {
     <Html lang="pt-BR">
       <Head>
         <meta name="google-site-verification" content="KOxSgMkKc9INlqf1KIyBsWPFbrqVOsdDTrkiOuTuT10" />
-        <script
+<script
           dangerouslySetInnerHTML={{
             __html: `
               (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
