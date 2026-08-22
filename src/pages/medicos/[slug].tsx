@@ -31,6 +31,10 @@ const DoctorPage: React.FC<DoctorPageProps> = ({ doctor }) => {
     );
   }
 
+  const metaDescription = doctor.shortDescription.length > 155
+    ? doctor.shortDescription.slice(0, 152) + '...'
+    : doctor.shortDescription;
+
   const schemaData = {
     '@context': 'https://schema.org',
     '@type': 'Physician',
@@ -55,9 +59,10 @@ const DoctorPage: React.FC<DoctorPageProps> = ({ doctor }) => {
     <>
       <Head>
         <title>{`${doctor.fullName} - ${doctor.mainProfessionalTitle} em ${doctor.address.city}`}</title>
-        <meta name="description" content={doctor.shortDescription} />
+        <meta name="description" content={metaDescription} />
+        <link rel="canonical" href={`https://medicospassofundo.com.br/medicos/${doctor.slugUrl}`} />
         <meta property="og:title" content={`${doctor.fullName} - ${doctor.mainProfessionalTitle}`} />
-        <meta property="og:description" content={doctor.shortDescription} />
+        <meta property="og:description" content={metaDescription} />
         <meta property="og:image" content={doctor.photoUrl} />
         <meta property="og:type" content="profile" />
         <meta property="og:url" content={`https://medicospassofundo.com.br/medicos/${doctor.slugUrl}`} />

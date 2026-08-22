@@ -34,6 +34,7 @@ const DoctorsPage: React.FC<DoctorsPageProps> = ({ highlightedDoctors }) => {
         <meta property="og:title" content="Médicos em Passo Fundo - Encontre seu especialista" />
         <meta property="og:description" content="Encontre os melhores médicos especialistas em Passo Fundo, RS. Pesquise por nome ou especialidade e agende sua consulta." />
         <meta property="og:image" content="https://www.medicospassofundo.com.br/images/og-home.jpg" />
+        <link rel="canonical" href="https://medicospassofundo.com.br" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script
           type="application/ld+json"
