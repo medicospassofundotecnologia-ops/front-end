@@ -10,9 +10,10 @@ import styles from './DoctorCard.module.css';
 
 interface DoctorCardProps {
   doctor: Doctor;
+  isPriority?: boolean;
 }
 
-const DoctorCard: React.FC<DoctorCardProps> = ({ doctor }) => {
+const DoctorCard: React.FC<DoctorCardProps> = ({ doctor, isPriority = false }) => {
   const { street, complement, neighborhood, zipCode } = doctor.address;
   const formattedAddress = `${street}${complement ? ` - ${complement}` : ''} - ${neighborhood} - ${zipCode}`;
 
@@ -58,6 +59,8 @@ const DoctorCard: React.FC<DoctorCardProps> = ({ doctor }) => {
               src={doctor.photoUrl}
               alt={`Foto de ${doctor.fullName}`}
               className={styles.doctorImage}
+              loading={isPriority ? 'eager' : 'lazy'}
+              fetchPriority={isPriority ? 'high' : 'low'}
             />
           </div>
           <div className={styles.infoContainer}>

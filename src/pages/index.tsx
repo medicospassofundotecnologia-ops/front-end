@@ -91,8 +91,8 @@ const DoctorsPage: React.FC<DoctorsPageProps> = ({ highlightedDoctors }) => {
           </div>
         ) : (
           <div className={styles.doctorsGrid}>
-            {highlightedDoctors.map((doctor) => (
-              <DoctorCard key={doctor.id} doctor={doctor} />
+            {highlightedDoctors.map((doctor, index) => (
+              <DoctorCard key={doctor.id} doctor={doctor} isPriority={index === 0} />
             ))}
           </div>
         )}

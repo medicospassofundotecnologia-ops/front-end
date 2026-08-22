@@ -112,8 +112,8 @@ const SearchPage: React.FC<SearchPageProps> = ({ initialDoctors, totalDoctorsCou
           </div>
         ) : (
           <div className={styles.doctorsGrid}>
-            {displayedDoctors.map((doctor) => (
-              <DoctorCard key={doctor.id} doctor={doctor} />
+            {displayedDoctors.map((doctor, index) => (
+              <DoctorCard key={doctor.id} doctor={doctor} isPriority={index === 0} />
             ))}
           </div>
         )}

@@ -62,6 +62,7 @@ const DoctorDetail: React.FC<DoctorDetailProps> = ({ doctor }) => {
             src={doctor.photoUrl}
             alt={`Foto de ${doctor.fullName}`}
             className={styles.profileImage}
+            fetchPriority="high"
           />
         </div>
         <div className={styles.profileInfo}>
