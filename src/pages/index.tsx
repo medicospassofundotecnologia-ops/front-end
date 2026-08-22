@@ -31,12 +31,48 @@ const DoctorsPage: React.FC<DoctorsPageProps> = ({ highlightedDoctors }) => {
       <Head>
         <title>Médicos em Passo Fundo - Encontre seu especialista</title>
         <meta name="description" content="Encontre os melhores médicos especialistas em Passo Fundo, RS. Pesquise por nome ou especialidade e agende sua consulta." />
-        {/* Meta tags Open Graph para compartilhamento */}
         <meta property="og:title" content="Médicos em Passo Fundo - Encontre seu especialista" />
         <meta property="og:description" content="Encontre os melhores médicos especialistas em Passo Fundo, RS. Pesquise por nome ou especialidade e agende sua consulta." />
         <meta property="og:image" content="https://www.medicospassofundo.com.br/images/og-home.jpg" />
-        {/* Meta tag para responsividade */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify([
+              {
+                '@context': 'https://schema.org',
+                '@type': 'WebSite',
+                name: 'Médicos Passo Fundo',
+                url: 'https://medicospassofundo.com.br',
+                potentialAction: {
+                  '@type': 'SearchAction',
+                  target: {
+                    '@type': 'EntryPoint',
+                    urlTemplate: 'https://medicospassofundo.com.br/busca/{search_term_string}',
+                  },
+                  'query-input': 'required name=search_term_string',
+                },
+              },
+              {
+                '@context': 'https://schema.org',
+                '@type': 'MedicalBusiness',
+                name: 'Médicos Passo Fundo',
+                description: 'Encontre os melhores médicos especialistas em Passo Fundo, RS. Pesquise por nome ou especialidade e agende sua consulta.',
+                url: 'https://medicospassofundo.com.br',
+                areaServed: {
+                  '@type': 'City',
+                  name: 'Passo Fundo',
+                },
+                address: {
+                  '@type': 'PostalAddress',
+                  addressLocality: 'Passo Fundo',
+                  addressRegion: 'RS',
+                  addressCountry: 'BR',
+                },
+              },
+            ]),
+          }}
+        />
       </Head>
       <section className={styles.doctorsListSection}>
         <h1 className={styles.pageTitle}>Encontre seu Médico em Passo Fundo</h1>
